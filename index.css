@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-line{
+    height: 30px;
+    border-left: 2px solid rgb(213, 63, 88);
+}
+.search-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #ff1b7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gol{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gol:hover{
+    background-color: #ff1b7e;
+}
+.main-header{
+    background-color: #ff1b7e;
+    width: 88%;
+    height: 70px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    align-items: center;
+    padding: 9px;
+    color: white;
+}
+.bgimg1{
+    height: 90vh;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/BabyCare/img/hero-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bgimg2{
+    height: auto;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/BabyCare/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.child{
+    background-color: #fbedf581;
+    height: auto;
+    width: 100%;
+}
+.butt-main{
+    height: 47px;
+    width: 130px;
+    background-color: #ff1b7e;
+    color: white;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 22px;
+}
+.butt-main1{
+    height: 55px;
+    width: 240px;
+    background-color: #ff1b7e;
+    color: white;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 22px;
+}
+.butt-main:hover{
+    background-color: rgba(0, 0, 255, 0.63);
+    color: #ff1b7e;
+}
+.butt-main1:hover{
+    background-color: rgba(0, 0, 255, 0.63);
+    color: #ff1b7e;
+}
+.childbg{
+    height: 60vh;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/BabyCare/img/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-top: 30px;
+}
+.border-div{
+    border: 2px solid #ff1b7e;
+    text-align: center;   
+    border-top-left-radius: 40px; 
+    border-bottom-right-radius: 40px; 
+    border-top-right-radius: 7px; 
+    border-bottom-left-radius: 7px; 
+    padding: 10px;
+    background-color: white;
+    height: 76vh;
+}
+.border-div:hover{
+    background-color: rgba(0, 0, 255, 0.743);
+    transition: all 1s;
+    color: white;
+}
+.ram{
+    height: 70px;
+    width: 70px;
+    border: 2px solid #ff1b7e;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photoraddius{
+    clip-path: polygon(13% 0, 91% 1%, 100% 50%, 82% 92%, 13% 97%, 0% 50%);
+
+}
+.photoraddius:hover{
+    transform: scale(1.05);
+    transition: all 0.8s;
+}
+.post{
+    position: absolute;
+    top: -20px;
+    background: #ff1b7e;
+    height: 50px;
+    width: 130px;
+    left: 40%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.post1{
+    position: absolute;
+    top: -20px;
+    background: #4048e6;
+    height: 50px;
+    width: 130px;
+    left: 40%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.suresh{
+    padding: 10px;
+    border: 2px solid #ff1b7e;
+    border-radius: 15%;
+    overflow: hidden;
+
+}
+.suresh:hover{
+    background-color: #ff1b7e;
+    color: white;
+}
+.mainflex{
+    display: flex;
+    gap: 30px;
+    padding: 9px;
+    overflow-x: scroll;
+    
+
+
+}
+.mainflex::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.joshi{
+    height: 55vh;
+    width: 25rem;
+    background-color: #ffebf2;
+    padding: 10px;
+    border-radius: 19%;
+    flex-shrink: 0;
+}
+.bbb{
+    border: 1px solid #ff1b7e;
+    padding: 10px;
+    background-color: #f6d1de;
+}
+input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+@media (max-width:768px) {
+    .media{
+        display: none !important;
+    }
+}
+@media (min-width:769px) and (max-width:1250px) {
+   .border-div{
+    height: 92vh;
+   }
+}
+@media (max-width:768px) {
+   .foter{
+    text-align: center;
+   }
+   .borderr{
+    border: none;
+   }
+   .foter3{
+    display: flex;
+    justify-content: center;
+   }
+   .border-div{
+    height: auto;
+   }
+}
+@media (max-width:568px) {
+   .navbar{
+    flex-wrap: nowrap;
+   }
+}
+@media (max-width:998px) {
+  .borderr{
+    padding: 20px !important;
+    padding-left: 30px !important;
+  }
+}
