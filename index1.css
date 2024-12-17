@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+ }
+ .mainbg{
+     background-color: #757aa8;
+     height: auto;
+     width: 100%;
+     padding: 20px;
+ }
+ .bgimg{
+     background-image: url(https://assets.awwwards.com/awards/media/cache/thumb_880_660/submissions/2024/10/670119af113f2375766333.jpg);
+     height: 50vh;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+ 
+ }
+ .bgimg1{
+     background-image: url(https://assets.awwwards.com/awards/media/cache/thumb_880_660/submissions/2024/10/67059e8d1dadf106880498.png);
+     height: 50vh;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+ 
+ }
+ .bgimg2{
+     background-image: url(https://assets.awwwards.com/awards/media/cache/thumb_880_660/submissions/2024/10/67015c6b450ab821541909.png);
+     height: 50vh;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+ 
+ }
+ .butt{
+     background-color: white;
+     color: black;
+     padding: 10px;
+ }
+ .hoverblock{
+     display: none;
+ }
+ .bgimg:hover .hoverblock{
+     display: block;
+ }
+ .bgimg:hover .ram{
+     background-color: rgba(0, 0, 0, 0.438);
+ }
+ .bgimg1:hover .hoverblock{
+     display: block;
+ }
+ .bgimg1:hover .ram{
+     background-color: rgba(0, 0, 0, 0.438);
+ }
+ .bgimg2:hover .hoverblock{
+     display: block;
+ }
+ .bgimg2:hover .ram{
+     background-color: rgba(0, 0, 0, 0.438);
+ }
+ .butt:hover{
+     background-color: black;
+     color: white;
+ }
+ .bottom{
+     width: 100px;
+     border-bottom: 2px solid rgb(64, 63, 63);
+ }
+ .mainforline{
+     height: 4px;
+     width: 100px;
+     background-color: rgb(138, 135, 135);
+     border-radius: 10px;
+ }
+ .childforline{
+     height: 4px;
+     width: 88px;
+     background-color: yellow;
+     border-radius: 10px;
+ }
+ .childforline1{
+     height: 4px;
+     width: 79px;
+     background-color: yellow;
+     border-radius: 10px;
+ }
+ .card{
+    height: 32rem;
+ }
+ .dotted{
+     border-bottom: 2px dotted rgb(103, 100, 100);
+     margin-top: 15px;
+ }
+ .imgg{
+     background-image: url(https://assets.awwwards.com/assets/redesign/images/pages/home/submit.jpg?v=2);
+     height: 70vh;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     border-radius: 10px;
+ }
+ .imgg2{
+     background-image: url(https://assets.awwwards.com/assets/redesign/images/pages/home/member.jpg?v=2);
+     height: 70vh;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     border-radius: 10px;
+ }
+ .imgg:hover{
+     filter: blur(0.6px);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     transform: scale(1.01);
+     transform: translatey(5px);
+     filter: brightness(80%);
+ }
+ .imgg2:hover{
+     filter: blur(0.6px);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     transform: scale(1.01);
+     transform: translatey(5px);
+     filter: brightness(80%);
+ }
+ 
+ 
+ 
+ @media (max-width:768px) {
+    .card{
+     height: auto !important;
+     width: 100% !important;
+    }
+    .none{
+     display: none;
+    }
+    
+ }
+ @media (max-width:1070px) {
+    .card{
+     height: 34rem;
+    }
+ }
+ @media (max-width:576px) {
+   .mam{
+     text-align: center;
+   }
+   .flex{
+     display: flex;
+     justify-content: center;
+   }
+ }
+ 
